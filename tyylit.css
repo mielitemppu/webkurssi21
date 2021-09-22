@@ -1,0 +1,18 @@
+body {
+	background-color: #FFFFFF;	
+	position: relative;
+}
+
+#otsikko {
+	border-radius: 0px 0px 15px 0px;
+	background: #4682B4;
+	padding: 20px;
+	width: 100px;
+	height: 30px;
+	text-align: center; 
+	font: 20px Arial, sans-serif;
+	color: #ffffff;
+	margin: auto;
+	position: relative;
+	top: 100px;
+}
