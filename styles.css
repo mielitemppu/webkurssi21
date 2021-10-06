@@ -17,3 +17,7 @@ div.muoto {
   width: 100px;
   height: 100px;
 }
+
+ol {
+  list-style-type: lower-alpha;
+}
