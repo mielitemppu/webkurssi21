@@ -76,3 +76,9 @@ figure figcaption {
 	background-color: #708090;
 	color: #ffffff;
 }
+div.kaikki {
+        border: 1px solid #708090;
+        padding: 10px;
+        margin: 20px;
+        background-color: #ADD8E6;
+}
