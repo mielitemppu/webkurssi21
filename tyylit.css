@@ -14,3 +14,21 @@ body {
 	font: 14px Arial, sans-serif;
 	color: #ffffff;
 }
+
+table.sivu {
+	border: 0px;
+	background-color: #ADD8E6;
+}
+
+th.otsikko {
+	padding: 10px;
+	
+}
+
+td.linkit {
+	padding: 10px;
+}
+
+td.sisalto {
+	padding: 10px;
+}
