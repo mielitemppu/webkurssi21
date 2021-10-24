@@ -84,3 +84,11 @@ div.kaikki {
 	width: 50%;
 	height: auto;
 }
+div#otsikko {
+	width: 100%;
+	background-color: #ADD8E6;
+	color: #ffffff;
+}
+div#menu {
+	width: 100%;	
+}
