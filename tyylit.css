@@ -39,13 +39,13 @@ table.sivu {
 }
 
 th.otsikko {
-	height: 50px;
-	vertical-align: middle;
+	height: 100px;
+	vertical-align: top;
 	text-align: center;
 }
 
 td.linkit {
-	height: 30px;
+	height: 40px;
 	vertical-align: middle;
 	text-align: left;
 }
