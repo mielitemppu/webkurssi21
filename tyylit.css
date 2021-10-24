@@ -6,10 +6,13 @@ body {
 h1 {
 	font-size: 20px;
 	color: #191970;
+	border: 2px solid #87CEEB;
 }
 
-p {
+p.hassu {
 	font-size: 12px;
+	border-radius: 2px 2px 5px 2px;
+	background: #4682B4;
 }
 
 #otsikko {
@@ -23,7 +26,9 @@ p {
 }
 
 table.sivu {
-	border: 0px;
+	border: 1px solid #708090;
+	padding: 10px;
+	margin: 20px;
 	background-color: #ADD8E6;
 	width: 500px;
 	height: 500px;
