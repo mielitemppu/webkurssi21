@@ -1,5 +1,16 @@
 body {
-	background-color: #ffffff;	
+	background-color: #FAEBD7;
+	color: #4682B4;
+	font: Arial, sans-serif;
+}
+
+h1 {
+	font-size: 20px;
+	color: #191970;
+}
+
+p {
+	font-size: 12px;
 }
 
 #otsikko {
