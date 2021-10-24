@@ -1,7 +1,6 @@
 body {
 	background-color: #FAEBD7;
 	color: #4682B4;
-	font: Arial, sans-serif;
 }
 
 h1 {
@@ -28,6 +27,7 @@ table.sivu {
 	background-color: #ADD8E6;
 	width: 500px;
 	height: 500px;
+	font: 12px Arial, sans-serif;
 }
 
 th.otsikko {
