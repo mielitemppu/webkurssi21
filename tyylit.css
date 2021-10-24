@@ -65,6 +65,16 @@ img.kuva {
   	margin-right: auto;
 }
 
+figure {
+  	display: inline-block;
+  	border: 1px dotted #708090;
+  	margin: 5px;
+	width: 200px;
+}
+figure img {
+  	vertical-align: top;
+}
 figure figcaption {
-	text-align: center;	
+  	border: 1px dotted #FFF5EE;
+	text-align: center;
 }
