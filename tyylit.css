@@ -31,15 +31,16 @@ table.sivu {
 }
 
 th.otsikko {
-	padding: 10px;
 	height: 40px;
+	vertical-align: middle;
 }
 
 td.linkit {
-	padding: 10px;
 	height: 25px;
+	vertical-align: middle;
 }
 
 td.sisalto {
 	padding: 10px;
+	vertical-align: top;
 }
