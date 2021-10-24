@@ -21,8 +21,7 @@ p.hassu {
 #otsikko {
 	border-radius: 0px 0px 5px 0px;
 	background: #4682B4;
-	padding: 2px;
-	width: 100px;
+	padding: 10px;
 	text-align: center; 
 	font: 14px Arial, sans-serif;
 	color: #ffffff;
@@ -39,7 +38,7 @@ table.sivu {
 }
 
 th.otsikko {
-	height: 100px;
+	height: 80px;
 	vertical-align: top;
 	text-align: center;
 }
