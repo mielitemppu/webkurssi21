@@ -32,10 +32,12 @@ table.sivu {
 
 th.otsikko {
 	padding: 10px;
+	height: 40px;
 }
 
 td.linkit {
 	padding: 10px;
+	height: 25px;
 }
 
 td.sisalto {
