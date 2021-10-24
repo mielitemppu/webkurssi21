@@ -26,6 +26,8 @@ p {
 table.sivu {
 	border: 0px;
 	background-color: #ADD8E6;
+	width: 500px;
+	height: 500px;
 }
 
 th.otsikko {
