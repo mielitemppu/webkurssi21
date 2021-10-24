@@ -88,6 +88,7 @@ div#otsikko {
 	width: 100%;
 	background-color: #ADD8E6;
 	color: #ffffff;
+	overflow: auto;
 }
 div#menu {
 	width: 100%;	
