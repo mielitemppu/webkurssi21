@@ -15,7 +15,7 @@ p.hassu {
 	background: #4682B4;
 	padding: 10px;
 	text-align: center; 
-    font-size: 14px;
+    	font-size: 14px;
 	color: #ffffff;
 }
 table.sivu {
@@ -102,8 +102,9 @@ td.navigaattori li a {
     	color: #dadada;
     	font-weight: bold;
 }
-td.navigaattori li a:hover:not(.active) {
+td.navigaattori li a:hover {
     	background-color: #6189b8;
+	color: #ff0000;
 }
 td.navigaattori .aktiivinen {
     	background-color: #9fcffc;
@@ -143,6 +144,6 @@ div.linkit li a {
     	color: #2b2b2b;
     	font-weight: bold;
 }
-div.linkit li a:hover:not(.active) {
+div.linkit li a:hover {
     	color: #d67200;
 }
