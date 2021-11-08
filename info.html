@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Assignment 8B - Bootstrap</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #topbar {
+                height: 80px;
+                line-height: 80px;
+                vertical-align: middle;
+                font-weight: bold;
+                color: #ffffff;
+                font-size: 24px;
+                padding-left: 0; 
+                padding-right: 0;
+                min-width: 700px;
+            }
+            .navi {
+                height: 40px;
+                line-height: 40px;
+                vertical-align: middle;
+                font-weight: bold;
+                color: #ffffff;
+                padding-left: 0; 
+                padding-right: 0;
+            }
+            .heading {
+                vertical-align: top;
+                text-align: center;
+                color: #ffffff;
+                padding: 40px 10px 40px 10px;
+                background-color: #0087b1;
+                box-sizing: border-box;
+                width: 100%;
+                float: left;
+            }
+            .content {
+                padding: 20px;
+                background-color: #dadada;
+                color: #1f1f1f;
+                box-sizing: border-box;
+                width: 100%;
+            }
+            .navi ul {
+                list-style-type: none;
+                overflow: hidden;
+                background-color: #4d4d4d;
+                margin: 0;
+                padding: 0;
+                font-size: 14px;
+            }
+            .navi li {
+                float: right;
+            }
+            .navi li a {
+                padding: 0 8px 0 8px;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                color: #ffffff;
+                font-weight: bold;
+            }
+            .navi li a:hover {
+                background-color: #0087b1;
+                color: #000000;
+            }
+            #title {
+                font-size: 16px;
+            }
+            input[type=submit] {
+                background-color: #0087b1;
+                color: #ffffff;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            input[type=text], select, textarea {
+                width: 100%; 
+                padding: 12px; 
+                border: 1px solid #ccc; 
+                border-radius: 4px; 
+                box-sizing: border-box; 
+                resize: vertical;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row justify-content-center" style="background-color: #0087b1;">
+                <div class="col-5" id="topbar">Assignment 8B</div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #4d4d4d;">
+                <div class="col-2 navi"><p id="title">Info</p></div>
+                <div class="col-3 navi" style="padding: 0;">
+                    <ul>
+                        <li><a href="artikkelit.html">Artikkelit</a></li>
+                        <li><a href="wframe.html">Etusivu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #ffffff; margin-top: 20px; padding: 0;">
+                <div class="col-xl-5 col-lg-5 p-1" style="">
+                    <p>Tähän voinen kirjoittaa sitten hyvin laajalti mikä on tämän sivuston tarkoitus ja taustoista. Ehkä kerron, että sivut on luotu osana amk-opintoja ja että haluan tuoda esille seiniin katsomisen hienoutta.</p>
+                    <p>Seuraavalla rivillä voisin kertoa vaikka itsestäni jotain. Esimerkiksi, että olen Maan asukas ja siten oletettavasti osa universumia. Minut on luokiteltu ihmiseksi, vaikkei kaikki siitä aina täysin varmoja olekaan. Siitä huolimatta taitoihini kuuluu nukkuminen, juominen ja syöminen, joista nukkuminen on vahvuus.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #ffffff; margin-top: 10px; padding: 0;">
+                <div class="col-xl-1 col-lg-2 p-1" style=""><div class="p-3 heading" style="height: 100%;"><h6>Ota yhteyttä</h6></div></div>
+                <div class="col-xl-4 col-lg-3 p-1" style="">
+                    <div class="p-3 content">
+                        <form action="wframe.html">
+                            <label for="name">Nimesi:</label><br>
+                            <input type="text" id="name" name="fullname" placeholder="Esim. Mikko Mallikas">
+                            <br><br>
+                            <label for="email">Sähköpostiosoitteesi:</label><br>
+                            <input type="text" id="email" name="email" placeholder="Esim. mikko.mallikas@todellahyvadomain.fi">
+                            <br><br>
+                            <label for="viesti">Viestisi:</label><br>
+                            <textarea id="viesti" name="viesti" placeholder="Esim. 5/5" style="height: 200px"></textarea>
+                            <br><br>
+                            <input type="submit" value="Viestitä">
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
