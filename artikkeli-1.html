@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Assignment 8B - Bootstrap</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #topbar {
+                height: 80px;
+                line-height: 80px;
+                vertical-align: middle;
+                font-weight: bold;
+                color: #ffffff;
+                font-size: 24px;
+                padding-left: 0; 
+                padding-right: 0;
+                min-width: 700px;
+            }
+            .navi {
+                height: 40px;
+                line-height: 40px;
+                vertical-align: middle;
+                font-weight: bold;
+                color: #ffffff;
+                padding-left: 0; 
+                padding-right: 0;
+            }
+            .heading {
+                vertical-align: top;
+                text-align: center;
+                color: #ffffff;
+                padding: 40px 10px 40px 10px;
+                background-color: #0087b1;
+                box-sizing: border-box;
+                width: 100%;
+                float: left;
+            }
+            .content {
+                padding: 20px;
+                background-color: #dadada;
+                color: #1f1f1f;
+                box-sizing: border-box;
+                width: 100%;
+            }
+            .navi ul {
+                list-style-type: none;
+                overflow: hidden;
+                background-color: #4d4d4d;
+                margin: 0;
+                padding: 0;
+                font-size: 14px;
+            }
+            .navi li {
+                float: right;
+            }
+            .navi li a {
+                padding: 0 8px 0 8px;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                color: #ffffff;
+                font-weight: bold;
+            }
+            .navi li a:hover {
+                background-color: #0087b1;
+                color: #000000;
+            }
+            #title {
+                font-size: 16px;
+            }
+            input[type=submit] {
+                background-color: #0087b1;
+                color: #ffffff;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            input[type=text], select, textarea {
+                width: 100%; 
+                padding: 10px; 
+                border: 1px solid #cccccc; 
+                box-sizing: border-box; 
+                resize: vertical;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row justify-content-center" style="background-color: #0087b1;">
+                <div class="col-5" id="topbar">Assignment 8B</div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #4d4d4d;">
+                <div class="col-2 navi"><p id="title">Artikkeli</p></div>
+                <div class="col-3 navi" style="padding: 0;">
+                    <ul>
+                        <li><a href="info.html">Info</a></li>
+                        <li><a href="artikkelit.html">Artikkelit</a></li>
+                        <li><a href="wframe.html">Etusivu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #ffffff; margin-top: 20px; padding: 0;">
+                <div class="col-xl-5 col-lg-5 p-1" style="">
+                    <h3>Jo toinenkin artikkeli lorem ipsumista!</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #ffffff; margin-top: 10px; padding: 0;">
+                <div class="col-xl-5 p-1" style="">
+                    <div class="p-3 content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue orci pretium urna pellentesque, molestie luctus sem volutpat. Aliquam arcu purus, efficitur ac aliquam sit amet, venenatis ut nisl. Sed ac efficitur erat. Curabitur lectus dui, iaculis a libero a, posuere malesuada magna. Quisque pharetra blandit sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at interdum lacus. Quisque pulvinar lacus justo, id aliquet ipsum eleifend non. Etiam aliquam enim orci, vel convallis nibh egestas eget. Mauris accumsan aliquam aliquet. Nulla finibus est sed porta cursus. Nunc elementum porttitor mattis.</p>
+                        <p>Maecenas ut massa vel nunc feugiat finibus. Nunc vitae dui imperdiet urna egestas semper. Suspendisse hendrerit magna iaculis mi auctor auctor. Nunc id ullamcorper nulla. Nulla imperdiet ex nibh, ac auctor felis ornare ut. Nullam feugiat, ipsum quis maximus dignissim, enim lectus iaculis quam, id volutpat metus risus vehicula felis. Quisque quis libero in risus tristique euismod. Quisque et nisl sapien. Integer nec lorem nec felis sodales ultricies. Ut iaculis eros diam, et tempor massa feugiat eu. Nunc blandit erat suscipit lacus tristique, a pharetra augue blandit. Vivamus vitae congue leo, vel ullamcorper ex. In viverra ipsum vitae dolor dignissim congue. Nulla ultricies justo non quam porttitor, a consectetur risus lacinia.</p>
+                        <p>Aliquam consequat commodo tempor. Nulla sit amet aliquam libero. Praesent vestibulum interdum nisi, eu scelerisque quam sagittis eu. Nulla facilisi. Nullam ac maximus est. Praesent varius condimentum venenatis. Nullam lorem velit, aliquet nec molestie nec, vestibulum in urna. Donec laoreet ligula at efficitur bibendum. Sed lacus ante, scelerisque a dolor tincidunt, rutrum pharetra velit.</p>
+                        <p>Sed non dignissim dolor. In accumsan, metus non semper rhoncus, odio ipsum posuere sapien, at dictum mauris purus in massa. Nullam ac est vel purus molestie volutpat. Aliquam rutrum et nulla sed tempor. Integer vehicula nisi in ornare semper. Sed a efficitur ligula, dapibus commodo lacus. Nulla vitae pharetra lectus, non commodo odio. Curabitur auctor eget velit ut fermentum. Curabitur sed tortor mollis, egestas velit a, cursus augue. Donec vel fringilla ante.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
