@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Assignment 8B - Bootstrap</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #topbar {
+                height: 80px;
+                line-height: 80px;
+                vertical-align: middle;
+                font-weight: bold;
+                color: #ffffff;
+                font-size: 24px;
+                padding-left: 0; 
+                padding-right: 0;
+                min-width: 700px;
+            }
+            .navi {
+                height: 40px;
+                line-height: 40px;
+                vertical-align: middle;
+                font-weight: bold;
+                color: #ffffff;
+                padding-left: 0; 
+                padding-right: 0;
+            }
+            .heading {
+                vertical-align: top;
+                text-align: center;
+                color: #ffffff;
+                padding: 40px 10px 40px 10px;
+                background-color: #0087b1;
+                box-sizing: border-box;
+                width: 100%;
+                float: left;
+            }
+            .content {
+                padding: 20px;
+                background-color: #dadada;
+                color: #1f1f1f;
+                box-sizing: border-box;
+                width: 100%;
+            }
+            #navi ul {
+                list-style-type: none;
+                overflow: hidden;
+                background-color: #4d4d4d;
+                margin: 0;
+                padding: 0;
+                font-size: 14px;
+            }
+            #navi li {
+                float: right;
+            }
+            #navi li a {
+                padding: 0 8px 0 8px;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                color: #ffffff;
+                font-weight: bold;
+            }
+            #navi li a:hover {
+                background-color: #0087b1;
+                color: #000000;
+            }
+            #title {
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row justify-content-center" style="background-color: #0087b1;">
+                <div class="col-5" id="topbar">Assignment 8B</div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #4d4d4d;">
+                <div class="col-2 navi"><p id="title">Etusivu</p></div>
+                <div class="col-3 navi" style="padding: 0;">
+                    <ul>
+                        <li><a href="info.html">Info</a></li>
+                        <li><a href="artikkelit.html">Artikkelit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #ffffff; margin-top: 20px; padding: 0;">
+                <div class="col-xl-5 col-lg-5 p-1" style=""><img src="kuva.png" alt="Hiano kuva" style="width: 100%; height: 200px; border: 1px #000 solid; padding: 4px;"></div>
+            </div>
+            <div class="row justify-content-center" style="background-color: #ffffff; margin-top: 10px; padding: 0;">
+                <div class="col-xl-1 col-lg-2 p-1" style=""><div class="p-3 heading" style="height: 100%;"><h6>Tervetuloa</h6></div></div>
+                <div class="col-xl-4 col-lg-3 p-1" style="">
+                    <div class="p-3 content">
+                        <p>Tähän voin sitten lisätä hienon tekstin, joka saattelee vierailijan sivustolle!</p><br>
+                        <p>Sen lisäksi voin kertoa tässä kaikenlaista hienoa, mitä sivusto tarjoaa lukijalleen. Esimerkiksi sivustolta voisi löytyä vinkkejä seinän katseluun sopivina vuorokauden aikoina ja huomioiden valaistuksen.</p>
+                        <p>Itse asiassa luulisin, että valtaosa internetin käyttäjistä olisi kiinnostunut sivustosta, joka käsittelisi aiheita seinistä ja niiden katsomisesta tarkemmin. Etusivulla näkyvä kuva tosin ei ole seinäaiheinen, mutta tästä huolimatta toimii kivana elementtinä sivulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
