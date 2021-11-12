@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Assignment 10B - Tables and Forms</title>
+        <link href="styletable.css" rel="stylesheet">
+    </head>
+    <body>
+        <table>
+            <caption>Taulukko</caption>
+            <thead>
+              <tr>
+                <th>Yksi</th>
+                <th>Kaksi</th>
+                <th>Kolme</th>
+                <th>Neljä</th>
+                <th>Viisi</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yksi.yksi</td>
+                    <td>Yksi.kaksi</td>
+                    <td>Yksi.kolme</td>
+                    <td>Yksi.neljä</td>
+                    <td>Yksi.viisi</td>
+                </tr>
+                    <tr>
+                    <td>Kaksi.yksi</td>
+                    <td>Kaksi.kaksi</td>
+                    <td rowspan="2" class="span">Kaksi.kolme-Kolme.kolme</td>
+                    <td>Kaksi.neljä</td>
+                    <td>Yksi.Viisi</td>
+                </tr>
+                <tr>
+                    <td>Kolme.yksi</td>
+                    <td>Kolme.kaksi</td>
+                    <td>Kolme.neljä</td>
+                    <td>Kolme.viisi</td>
+                </tr>
+                <tr>
+                    <td>Neljä.yksi</td>
+                    <td>Neljä.kaksi</td>
+                    <td>Neljä.kolme</td>
+                    <td>Neljä.neljä</td>
+                    <td>Neljä.neljä</td>
+                </tr>
+                <tr>
+                    <td>Viisi.yksi</td>
+                    <td>Viisi.kaksi</td>
+                    <td>Viisi.kolme</td>
+                    <td>Viisi.neljä</td>
+                    <td>Viisi.viisi</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="span">Kuusi.yksi-kaksi</td>
+                    <td>Kuusi.kolme</td>
+                    <td>Kuusi.neljä</td>
+                    <td>Kuusi.viisi</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h1>Uusi käyttäjä:</h1>
+        <form action="https://www.w3schools.com/action_page.php">
+            <fieldset>
+                <legend>Henkilötiedot:</legend>
+                <label for="etunimi">Etunimi:</label><br>
+                <input type="text" id="etunimi" name="etunimi" required><br>
+
+                <label for="sukunimi">Sukunimi:</label><br>
+                <input type="text" id="sukunimi" name="sukunimi" required><br>
+            
+                <label for="sahkoposti">Sähköpostiosoite:</label><br>
+                <input type="email" id="sahkoposti" name="sahkoposti" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Käyttäjätiedot:</legend>
+                <label for="teksti">Kuvaus käyttäjästä: <i style="font-size: 10px;">(Enintään 200 merkkiä)</i></label><br>
+                <textarea id="teksti" name="teksti" rows="4" cols="80" maxlength="200"></textarea><br>
+
+                <label for="seinamateriaali">Valitse seinämateriaali:</label><br>
+                <select id="seinamateriaali" name="seinamateriaali">
+                    <option value="tiili">Tiili</option>
+                    <option value="puu">Puu</option>
+                    <option value="kipsilevy">Kipsilevy</option>
+                    <option value="lasi">Lasi</option>
+                </select><br>
+            </fieldset>
+            <input type="checkbox" id="uutiskirje" name="uutiskirje" value="Juu">
+            <label for="uutiskirje">Haluan uutiskirjeen</label><br>
+            <input type="submit" value="Luo uusi käyttäjä">
+        </form>
+    </body>
+</html>
