@@ -1,0 +1,77 @@
+body {
+    background-color: #f0f0f0;
+    font: 14px Arial, sans-serif;
+    padding: 20px;
+}
+table {
+    border-spacing: 4px;
+    background-color: #86d3ff;
+    border: 2px dotted #0055a5;
+    margin: 20px 20px 40px 0px;
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ffffff;
+}
+th {
+    background-color: #003f4e;
+    color: #f1f1f1;
+}
+tr:nth-child(even) {
+    background-color: #0055a5;
+    color: #ffffff;
+}
+td:hover {
+    background-color: #8d8d8d;
+}
+.span {
+    background-color: #a53400;
+    color: #ffffff;
+    border: 3px solid #161616
+}
+caption {
+    color: #161616;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type=submit] {
+    background-color: #003f4e;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 6px; 
+    border: 1px solid #8b8b8b; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    resize: none;
+}
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    background-color: #b3e3ff;
+  }
+fieldset {
+    width: 30%;
+    margin: 20px 20px 20px 0px;
+    padding: 10px 10px 20px 10px;
+}
+@media screen and (max-width: 1000px) {
+    fieldset {
+        width: 100%;
+        margin: 20px 20px 20px 0px;
+        padding: 10px 10px 20px 10px;
+    }
+}
+legend {
+    background-color: gray;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
